@@ -1,0 +1,149 @@
+*{
+    font-family: sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+.chat_wrapper {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column nowrap;
+    border: 1px solid #e0e9fd;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+
+.footerChat {
+    padding: 15px 0 5px;    
+    display: flex;
+    justify-content: center;
+}
+
+.footerChat > input {
+    width: 75%;
+    border: 1px solid #eaedfe;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 10px;
+    border-radius: 10px 0 0 10px;
+    transition: all .5s ease-in;
+}
+
+.footerChat > input:hover {
+    border: 1px solid #e0e9fd;
+    transition: all .5s ease-out;
+    padding: 10px;
+}
+
+.footerChat > button {
+    border: none;
+    background: #eaedfe;
+    color: #1a1918;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+
+.footerChat > button:hover {
+    background-color: #ced6fe;
+    transition: all .5s ease-out;
+}
+
+.chat {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.left {
+    align-self: flex-start;
+}
+
+.right {
+    align-self: flex-end;
+}
+
+.message {
+    background: #4d63ff;
+    color: #ffffff;
+    min-width: 235px;    
+    padding: 20px;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.message_box {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+    padding: 0 0 20px 0;
+}
+
+.edit-box {
+    padding: 10px 20px 20px;
+}
+
+.edit {
+    text-align: end;
+    font-size: 12px;
+}
+
+.edit button {
+    padding: 0;
+    margin: 0 0 0 10px;
+    color: #d1d3e7;    
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+button:hover > span {
+    color: #ffffff;
+}
+
+.date {
+    font-size: 10px;
+    color: #afafaf;    
+}
+
+.username {
+    font-weight: bold;
+}
+
+.user {
+    border-radius: 25px;
+    border-top-right-radius: 0px;
+}
+
+.friend {
+    background: #efeff1;  
+    color: black;  
+    border-radius: 25px;
+    border-top-left-radius: 0px;
+}
+
+.friend .date {
+    color: #8d8f91;
+}
+
+.hide {
+    display: none;
+}
+
+.change {
+    font-size: 10px;
+    text-align: end;
+    padding: 8px 0 0;
+    color: #afafaf;
+}
+.change-msg {
+    padding-bottom: 10px;
+}
